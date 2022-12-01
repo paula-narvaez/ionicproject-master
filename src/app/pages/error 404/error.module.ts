@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ErroPageRoutingModule } from './erro-routing.module';
+import { ErroPageRoutingModule } from './error-routing.module';
 
-import { ErroPage } from './erro.page';
+import { ErroPage } from './error.page';
 
 @NgModule({
   imports: [

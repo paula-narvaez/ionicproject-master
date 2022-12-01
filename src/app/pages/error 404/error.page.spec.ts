@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { ErroPage } from './erro.page';
+import { ErroPage } from './error.page';
 
 describe('ErroPage', () => {
   let component: ErroPage;

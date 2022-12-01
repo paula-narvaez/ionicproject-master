@@ -35,7 +35,7 @@ const routes: Routes = [
   },
   {
     path: 'erro',
-    loadChildren: () => import('./error 404/erro.module').then( m => m.ErroPageModule)
+    loadChildren: () => import('./pages/error 404/error.module').then( m => m.ErroPageModule)
   },
   
 ];
