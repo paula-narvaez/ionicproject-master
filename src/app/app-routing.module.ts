@@ -33,14 +33,12 @@ const routes: Routes = [
     path: 'coversor',
     loadChildren:  () => import('./pages/coversor/coversor.module').then( m => m.CoversorPageModule)
   },
+
   {
-    path: 'error',
-    loadChildren: () => import('./pages/error 404/error.module').then( m => m.ErrorPageModule)
+    path: '**',
+    redirectTo: '404'
   },
-  {
-    path: 'error',
-    loadChildren: () => import('./error/error.module').then( m => m.ErrorPageModule)
-  },
+ 
   
 ];
 
