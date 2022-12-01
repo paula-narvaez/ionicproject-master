@@ -6,7 +6,7 @@ import { IonicModule } from '@ionic/angular';
 
 import { CoversorPageRoutingModule } from './coversor-routing.module';
 
-import { CoversorPage } from './coversor.page';
+import { ConversorPage } from './coversor.page';
 
 @NgModule({
   imports: [
@@ -15,6 +15,6 @@ import { CoversorPage } from './coversor.page';
     IonicModule,
     CoversorPageRoutingModule
   ],
-  declarations: [CoversorPage]
+  declarations: [ConversorPage]
 })
 export class CoversorPageModule {}
