@@ -4,17 +4,19 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ErroPageRoutingModule } from './error-routing.module';
+import { ErrorPageRoutingModule } from './error-routing.module';
 
-import { ErroPage } from './error.page';
+import { ErrorPage } from './error.page';
+
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ErroPageRoutingModule
+    ErrorPageRoutingModule,
+
   ],
-  declarations: [ErroPage]
+  declarations: [ErrorPage]
 })
-export class ErroPageModule {}
+export class ErrorPageModule {}
