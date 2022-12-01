@@ -29,11 +29,13 @@ const routes: Routes = [
     loadChildren:  () => import('./pages/Nosotros/nosotros.module').then( m => m.NosotrosPageModule)
   },
   
-
-
   {
     path: '**',
     redirectTo: 'error404'
+  },
+  {
+    path: 'conversor',
+    loadChildren: () => import('./pages/conversor/conversor.module').then( m => m.ConversorPageModule)
   },
 
  
