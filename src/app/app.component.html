@@ -24,12 +24,20 @@
           <ion-icon name="cash" slot="start"></ion-icon>
           <ion-label>Conversor</ion-label>
         </ion-item>
+
+        <ion-card>
+          <ion-car-tittle>CLIMA</ion-car-tittle>
+          <p>{{weather.main.temp-273.15}}</p>
+         </ion-card>
+
       </ion-menu-toggle>
       <div class="ion-margin-top">
         <ion-button expand="block" class="ion-margin-top" (click)="bienvenida()" color="white">Cerrar Sesion</ion-button>
       </div>
 
       </ion-list>
+
+
     </ion-content>
   </ion-menu>
   <ion-router-outlet id="main"></ion-router-outlet>
