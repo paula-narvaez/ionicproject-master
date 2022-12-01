@@ -7,6 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConversorPage implements OnInit {
 
+  pageTitle = 'conversor';
+  listadoIndicadores: any;
+  indicadorEuro: number;
+  indicadorDolar: number;
+  valorEnEuro: number;
+  valorEnDolar: number;
+  valor: number = 0;
+
+
   constructor() { }
 
   ngOnInit() {
