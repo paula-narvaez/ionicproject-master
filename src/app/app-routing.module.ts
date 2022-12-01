@@ -29,10 +29,7 @@ const routes: Routes = [
     loadChildren:  () => import('./pages/Nosotros/nosotros.module').then( m => m.NosotrosPageModule)
   },
   
-  {
-    path: 'conversor',
-    loadChildren:  () => import('./pages/conversor/coversor.module').then( m => m.CoversorPageModule)
-  },
+
 
   {
     path: '**',
